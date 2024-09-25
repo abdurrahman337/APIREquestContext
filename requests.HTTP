@@ -1,0 +1,18 @@
+GET http://localhost:3000/posts
+
+###
+
+POST http://localhost:3000/posts
+Content-Content-Type: application/json
+
+  {
+    "title": "hej hej test",
+    "views": 2500
+  }
+
+
+###
+
+DELETE  http://localhost:3000/posts/066a
+Content-Content-Type: application/json
+
